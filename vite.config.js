@@ -7,4 +7,8 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5173
   }
+  export default defineConfig({
+  base: '/vyapaar_ai/', // Add this line
+  plugins: [react()],
+})
 });
