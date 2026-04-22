@@ -2,13 +2,10 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: '/vyapaar_ai/',
   plugins: [react()],
   server: {
     host: '0.0.0.0',
     port: 5173
   }
-  export default defineConfig({
-  base: '/vyapaar_ai/', // Add this line
-  plugins: [react()],
-})
 });
